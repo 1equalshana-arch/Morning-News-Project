@@ -81,7 +81,6 @@ schedule.every().day.at("09:00").do(scheduled_job)
 
 print("\n🚀 봇 가동 중... (위의 '전송 완료' 메시지가 뜰 때까지 기다려 주세요)")
 
-# 루프 유지
-while True:
-    schedule.run_pending()
-    time.sleep(1)
+
+if __name__ == "__main__":
+    asyncio.run(main()) # 또는 이전에 작성한 실행 함수
