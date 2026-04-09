@@ -85,5 +85,3 @@ print("\n🚀 봇 가동 중... (위의 '전송 완료' 메시지가 뜰 때까�
 while True:
     schedule.run_pending()
     time.sleep(1)
-
-pip install feedparser python-telegram-bot yfinance schedule
